@@ -1,0 +1,37 @@
+src/main/java/com/security/scheduler/
+├── config/
+│   └── DatabaseConfig.java
+├── model/
+│   ├── Employee.java
+│   ├── Shift.java
+│   ├── Post.java
+│   ├── ShiftAssignment.java
+│   ├── Schedule.java
+│   ├── WeeklyPayout.java
+│   ├── TimeTracking.java
+│   └── EmployeeAvailability.java
+├── dao/
+│   ├── EmployeeDAO.java
+│   ├── ShiftDAO.java
+│   ├── PostDAO.java
+│   ├── ShiftAssignmentDAO.java
+│   ├── ScheduleDAO.java
+│   ├── WeeklyPayoutDAO.java
+│   └── TimeTrackingDAO.java
+├── dao/jdbc/
+│   ├── JdbcEmployeeDAO.java
+│   ├── JdbcShiftDAO.java
+│   ├── JdbcPostDAO.java
+│   ├── JdbcShiftAssignmentDAO.java
+│   ├── JdbcScheduleDAO.java
+│   ├── JdbcWeeklyPayoutDAO.java
+│   └── JdbcTimeTrackingDAO.java
+├── controller/
+│   ├── EmployeeController.java
+│   ├── ShiftController.java
+│   ├── PostController.java
+│   ├── ShiftAssignmentController.java
+│   ├── ScheduleController.java
+│   └── WeeklyPayoutController.java
+└── util/
+    └── DatabaseConnection.java
