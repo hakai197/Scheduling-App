@@ -1,0 +1,54 @@
+src/main/java/com/security/scheduling/
+├── SecuritySchedulingApplication.java
+├── config/
+│   ├── DatabaseConfig.java
+│   └── WebConfig.java
+├── model/
+│   ├── Employee.java
+│   ├── Shift.java
+│   ├── Post.java
+│   ├── ShiftAssignment.java
+│   ├── Schedule.java
+│   ├── ScheduleShift.java
+│   ├── WeeklyPayout.java
+│   ├── TimeTracking.java
+│   └── EmployeeAvailability.java
+├── dao/
+│   ├── EmployeeDao.java
+│   ├── ShiftDao.java
+│   ├── PostDao.java
+│   ├── ShiftAssignmentDao.java
+│   ├── ScheduleDao.java
+│   ├── WeeklyPayoutDao.java
+│   ├── TimeTrackingDao.java
+│   └── EmployeeAvailabilityDao.java
+├── dao/jdbc/
+│   ├── EmployeeJdbcDao.java
+│   ├── ShiftJdbcDao.java
+│   ├── PostJdbcDao.java
+│   ├── ShiftAssignmentJdbcDao.java
+│   ├── ScheduleJdbcDao.java
+│   ├── WeeklyPayoutJdbcDao.java
+│   ├── TimeTrackingJdbcDao.java
+│   └── EmployeeAvailabilityJdbcDao.java
+├── controller/
+│   ├── EmployeeController.java
+│   ├── ShiftController.java
+│   ├── PostController.java
+│   ├── ScheduleController.java
+│   ├── ShiftAssignmentController.java
+│   ├── PayoutController.java
+│   └── TimeTrackingController.java
+├── service/
+│   ├── EmployeeService.java
+│   ├── ShiftService.java
+│   ├── PostService.java
+│   ├── ScheduleService.java
+│   ├── ShiftAssignmentService.java
+│   ├── PayoutService.java
+│   └── TimeTrackingService.java
+└── dto/
+    ├── EmployeeDTO.java
+    ├── ShiftAssignmentDTO.java
+    ├── ScheduleDTO.java
+    └── PayoutDTO.java
