@@ -13,7 +13,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.techelevator</groupId>
+    <groupId>com.securityschedule</groupId>
     <artifactId>ScedulingApp</artifactId>
     <version>1.0</version>
 
